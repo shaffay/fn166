@@ -51,7 +51,7 @@ $fetch = $con->query("SELECT * FROM `products`");
                   <td> 
                   <a href="edit.php"   class="btn btn-info ">Edit</a>
 |
-                  <a href="delete.php"   class="btn btn-danger ">Delete</a>
+                  <a href="delete.php?id=<?php echo $row['id'] ?>"   class="btn btn-danger ">Delete</a>
 
 
                   </td>
